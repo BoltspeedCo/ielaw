@@ -1,0 +1,150 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Header Menu": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "navigation_item": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Footer Menu": {
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "footer_navigation_item": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Social": {
+      "social": {
+        "type": "Group",
+        "config": {
+          "label": "social",
+          "fields": {
+            "platform": {
+              "type": "Text",
+              "config": {
+                "label": "platform",
+                "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "select": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "seo": {
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "businessName": {
+        "type": "Text",
+        "config": {
+          "label": "business name",
+          "placeholder": ""
+        }
+      },
+      "businessDescription": {
+        "type": "Text",
+        "config": {
+          "label": "business description",
+          "placeholder": ""
+        }
+      },
+      "businessTelephone": {
+        "type": "Text",
+        "config": {
+          "label": "business telephone",
+          "placeholder": ""
+        }
+      },
+      "businessEmail": {
+        "type": "Text",
+        "config": {
+          "label": "business email",
+          "placeholder": ""
+        }
+      },
+      "streetAddress": {
+        "type": "Text",
+        "config": {
+          "label": "street address",
+          "placeholder": ""
+        }
+      },
+      "addressLocality": {
+        "type": "Text",
+        "config": {
+          "label": "address locality",
+          "placeholder": ""
+        }
+      },
+      "addressRegion": {
+        "type": "Text",
+        "config": {
+          "label": "address region",
+          "placeholder": ""
+        }
+      },
+      "postalCode": {
+        "type": "Text",
+        "config": {
+          "label": "postalcode",
+          "placeholder": ""
+        }
+      },
+      "addressCountry": {
+        "type": "Text",
+        "config": {
+          "label": "address country",
+          "placeholder": ""
+        }
+      },
+      "images": {
+        "type": "Group",
+        "config": {
+          "label": "images",
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": {
+                "label": "image",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

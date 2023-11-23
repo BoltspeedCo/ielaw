@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"textBlock": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Officia excepteur laboris elit proident quis dolor do elit excepteur minim mollit est dolore fugiat. Proident pariatur ullamco mollit id laboris nisi consectetur in pariatur laborum sint quis aliquip anim."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

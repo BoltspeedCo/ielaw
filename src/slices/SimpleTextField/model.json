@@ -1,0 +1,16 @@
+{
+  "id": "simple_text_field",
+  "type": "SharedSlice",
+  "name": "SimpleTextField",
+  "description": "SimpleTextField",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}

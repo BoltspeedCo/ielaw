@@ -1,0 +1,33 @@
+{
+  "id": "featured_lists",
+  "type": "SharedSlice",
+  "name": "FeaturedLists",
+  "description": "FeaturedLists",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "description",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "footer_navigation_item",
+  "type": "SharedSlice",
+  "name": "FooterNavigationItem",
+  "description": "FooterNavigationItem",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "group_name": {
+          "type": "Text",
+          "config": {
+            "label": "group name",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "menuText": {
+          "type": "StructuredText",
+          "config": {
+            "label": "menu text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "menuLink": {
+          "type": "Link",
+          "config": {
+            "label": "menu link",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "select": null
+          }
+        }
+      }
+    }
+  ]
+}

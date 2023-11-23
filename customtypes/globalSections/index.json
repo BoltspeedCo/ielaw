@@ -1,0 +1,109 @@
+{
+  "id": "globalSections",
+  "label": "Global Sections",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Header": {},
+    "Footer": {
+      "footerHeading": {
+        "type": "StructuredText",
+        "config": {
+          "label": "heading",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading2,strong"
+        }
+      }
+    },
+    "Steps": {
+      "stepsHeading": {
+        "type": "StructuredText",
+        "config": {
+          "label": "steps Heading",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading2,strong"
+        }
+      },
+      "stepItems": {
+        "type": "Group",
+        "config": {
+          "label": "step items",
+          "fields": {
+            "heading": {
+              "type": "Text",
+              "config": {
+                "label": "heading",
+                "placeholder": ""
+              }
+            },
+            "description": {
+              "type": "Text",
+              "config": {
+                "label": "description",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "Cta": {
+      "ctaPreheading": {
+        "type": "StructuredText",
+        "config": {
+          "label": "cta preheading",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading5"
+        }
+      },
+      "ctaHeading": {
+        "type": "StructuredText",
+        "config": {
+          "label": "cta heading",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "ctaBodyText": {
+        "type": "StructuredText",
+        "config": {
+          "label": "cta body text",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      },
+      "ctaButtonText": {
+        "type": "Text",
+        "config": {
+          "label": "cta button text",
+          "placeholder": ""
+        }
+      },
+      "ctaButtonLink": {
+        "type": "Link",
+        "config": {
+          "label": "cta button link",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    },
+    "Quote": {
+      "quoteHeading": {
+        "type": "StructuredText",
+        "config": {
+          "label": "quote heading",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      }
+    }
+  }
+}

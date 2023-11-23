@@ -1,0 +1,105 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"overline": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading5",
+						"content": {
+							"text": "Meant"
+						}
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Nearby"
+						}
+					}
+				]
+			},
+			"bodyText": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sint id commodo consequat."
+						}
+					}
+				]
+			},
+			"buttonText": {
+				"__TYPE__": "FieldContent",
+				"value": "strength",
+				"type": "Text"
+			},
+			"buttonLink": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com"
+				}
+			},
+			"backgroundImage": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1586952518485-11b180e92764",
+					"width": 4172,
+					"height": 4000
+				},
+				"url": "https://images.unsplash.com/photo-1586952518485-11b180e92764",
+				"width": 4172,
+				"height": 4000,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"statsNumber",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "27",
+							"type": "Number"
+						}
+					],
+					[
+						"statsUnit",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "fallen",
+							"type": "Text"
+						}
+					],
+					[
+						"statsCaption",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "given",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

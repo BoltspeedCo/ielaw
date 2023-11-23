@@ -1,0 +1,65 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"preHeading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco sunt reprehenderit voluptate eiusmod aliquip id proident non reprehenderit. Enim exercitation amet culpa. Irure velit tempor esse officia et reprehenderit proident nisi non quis Lorem aliquip irure eu et."
+						}
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Voluptate Lorem proident eu aliquip ad eu non nulla. In nisi eiusmod veniam nostrud in Lorem."
+						}
+					}
+				]
+			},
+			"bodyText": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "In id deserunt id aliquip adipisicing consectetur ullamco anim proident occaecat ut consectetur proident dolor. Officia aute eiusmod sit quis ex et voluptate in. Consectetur Lorem dolore laborum mollit sint nisi mollit magna dolor occaecat."
+						}
+					}
+				]
+			},
+			"buttonText": {
+				"__TYPE__": "FieldContent",
+				"value": "baby",
+				"type": "Text"
+			},
+			"buttonLink": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev"
+				}
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "globalCta",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

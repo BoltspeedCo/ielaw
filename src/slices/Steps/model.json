@@ -1,0 +1,53 @@
+{
+  "id": "steps",
+  "type": "SharedSlice",
+  "name": "Steps",
+  "description": "Steps",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2,strong"
+          }
+        }
+      },
+      "items": {
+        "stepHeading": {
+          "type": "Text",
+          "config": {
+            "label": "step heading",
+            "placeholder": ""
+          }
+        },
+        "stepDescription": {
+          "type": "Text",
+          "config": {
+            "label": "step description",
+            "placeholder": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "stepGlobal",
+      "name": "Step Global",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}
