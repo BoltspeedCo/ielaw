@@ -37,7 +37,7 @@ export function Header({ headerMenuItems, headerMenu }: HeaderProps) {
             <div className="flex justify-between items-center">
                 <div className="">
                     <Link href="/" className="block w-fit py-2 md:py-1">
-                        <Image src={'/images/clickvisa-logo.svg'} alt="clickvisa-logo" className="h-4 lg:h-6 w-auto" width={200} height={50} />
+                        <Image src={'/images/ielaw-logo.svg'} alt="clickvisa-logo" className="h-4 lg:h-6 w-auto" width={200} height={50} />
                     </Link>
                 </div>
                 <nav className="hidden md:flex gap-6 lg:gap-12 items-center">

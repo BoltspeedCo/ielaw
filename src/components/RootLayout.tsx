@@ -81,7 +81,7 @@ const RootLayout = ({ settings, globalContext, children, noFooter, headerMenu }:
             </div>
             <div className="mt-14 lg:mt-24 xl:mt-32 space-y-3 md:space-y-0 text-center md:text-left md:flex flex-wrap justify-between items-end">
               <div className="text-xs">
-                {new Date().getFullYear()} &copy; ClickVisa. All rights reserved.
+                {new Date().getFullYear()} &copy; Ielaw. All rights reserved.
               </div>
               <div className="flex gap-2 justify-center">
                 {social.map((socialItem, index) => {
