@@ -17,7 +17,9 @@ export default function Layout({
 }) {
   return (
     <html lang="en">
-      <body >{children} <PrismicPreview repositoryName={repositoryName} />
+      <body >
+        {children}
+        {/* <PrismicPreview repositoryName={repositoryName} /> */}
       </body>
     </html>
   )
